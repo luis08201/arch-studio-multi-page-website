@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="css/contact.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <title>Frontend Mentor | Arch Studio Website Challenge</title>
+</head>
+
+<body>
+  <div class="floatbox">
+    <span></span>
+    <p>contact</p>
+  </div>
+  <header class="header">
+    <div class="header__main">
+      <div class="header__logo">
+        <a href="index.html" class="header__logo--link">
+          <img src="assets/logo.svg" alt="" class="header__logo--photo">
+        </a>
+      </div>
+      <ul class="header__menu" id="nav">
+        <li class="header__list">
+          <a href="portfolio.html" class="header__link">Portfolio</a>
+        </li>
+        <li class="header__list">
+          <a href="about.html" class="header__link">About Us</a>
+        </li>
+        <li class="header__list">
+          <a href="contact.html" class="header__link">Contact</a>
+        </li>
+      </ul>
+      <div class="header__toggle" id="toggle"></div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="home">
+      <div class="home__main">
+        <picture class="home__picture">
+          <source media="(max-width:767px)" srcset="assets/contact/mobile/image-hero.jpg">
+          <source media="(max-width:1023px)" srcset="assets/contact/tablet/image-hero.jpg">
+          <source media="(max-width:1440px)" srcset="assets/contact/desktop/image-hero.jpg">
+          <img src="assets/contact/mobile/image-hero.jpg" alt="" class="home__photo">
+        </picture>
+        <article class="home__article">
+          <h2 class="home__article--secondheading">
+            Tell us about your project
+          </h2>
+          <p class="home__article--paragraph">
+            We’d love to hear more about your project. Please, leave a message below or give
+            us a call. We have two offices, one in Texas and one in Tennessee. If you find
+            yourself nearby, come say hello!
+          </p>
+        </article>
+      </div>
+    </section>    
+    <section class="detail">
+      <div class="detail__main">
+        <div class="detail__title">
+          <h2 class="detail__title--secondheading">
+            Contact Details
+          </h2>
+        </div>
+        <div class="detail__body">
+          <div class="detail__body--item">
+            <div class="detail__body--itemOne">
+              <h4 class="detail__body--smallheading">
+                Main Office
+              </h4>
+              <p class="detail__body--paragraph">
+                Mail: archone@mail.com
+              </p>
+              <p class="detail__body--paragraph">
+                Address: 1892 Chenoweth Drive TN
+              </p>
+              <p class="detail__body--paragraph">
+                Phone: 123-456-3451
+              </p>
+            </div>
+            <div class="detail__body--itemTwo">
+              <a href="#" class="detail__body--cta">
+                View on Map
+                <span></span>
+              </a>
+            </div>
+          </div>
+          <div class="detail__body--item">
+            <div class="detail__body--itemOne">
+              <h4 class="detail__body--smallheading">
+                Office II
+              </h4>
+              <p class="detail__body--paragraph">
+                Mail: archtwo@mail.com
+              </p>
+              <p class="detail__body--paragraph">
+                Address: 3399 Wines Lane TX
+              </p>
+              <p class="detail__body--paragraph">
+                Phone: 832-123-4321
+              </p>
+            </div>
+            <div class="detail__body--itemTwo">
+              <a href="#" class="detail__body--cta">
+                View on Map
+                <span></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="banner">
+      <div class="banner__main">
+        <picture class="banner__picture">
+          <source media="(max-width:767px)" srcset="assets/contact/mobile/image-map.png">
+          <source media="(max-width:1023px)" srcset="assets/contact/tablet/image-map.png">
+          <source media="(max-width:1440px)" srcset="assets/contact/desktop/image-map.png">
+          <img src="assets/contact/mobile/image-map.png" alt="Map" class="banner__photo">
+        </picture>
+      </div>
+    </section>
+    <section class="contact">
+      <div class="contact__title">
+        <h2 class="contact__title--secondheading">
+          Connect with us
+        </h2>
+      </div>
+      <form action="" class="contact__form" id="formulario">
+        <div class="contact__form--name">
+          <input type="text" placeholder="Name" class="contact__form--input" id="inputName">
+          <span class="contact__form--span" id="span"></span>
+        </div>
+        <div class="contact__form--email">
+          <input type="email" placeholder="Email" class="contact__form--input" id="inputEmail">
+          <span class="contact__form--span" id="spanEmail"></span>
+        </div>
+        <div class="contact__form--message">
+          <textarea placeholder="Message" class="contact__form--textarea"></textarea>
+        </div>
+        <div class="contact__form--button">
+          <button class="contact__form--btn">
+            <span></span>
+          </button>
+        </div>
+      </form>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__main">
+      <div class="footer__logo">
+        <a href="index.html" class="footer__logo--cta">
+          <img src="assets/icons/logo-black.svg" alt="Arch logo" class="footer__photo">
+        </a>
+      </div>
+      <ul class="footer__menu">
+        <li class="footer__list">
+          <a href="portfolio.html" class="footer__link">Portfolio</a>
+        </li>
+        <li class="footer__list">
+          <a href="about.html" class="footer__link">About Us</a>
+        </li>
+        <li class="footer__list">
+          <a href="contact.html" class="footer__link">Contact</a>
+        </li>
+      </ul>
+      <div class="footer__button">
+        <a href="#" class="footer__button--cta">See Our Portfolio
+          <span></span>
+        </a>
+      </div>
+    </div>
+  </footer>
+  <script src="js/toggle.js"></script>
+  <script src="js/validation.js"></script>
+</body>
+
+</html>
