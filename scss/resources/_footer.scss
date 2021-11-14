@@ -69,11 +69,8 @@
       }
 
       & span {
-        background-image: url(/assets/icons/icon-arrow.svg);
-        background-repeat: no-repeat;
-        width: 30px;
-        height: 20px;
-        filter: invert(1);
+        font-size: 25px;
+        cursor: pointer;
       }
     }
   }

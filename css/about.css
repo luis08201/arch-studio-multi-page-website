@@ -309,12 +309,8 @@ textarea {
 }
 
 .footer__button--cta span {
-  background-image: url(/assets/icons/icon-arrow.svg);
-  background-repeat: no-repeat;
-  width: 30px;
-  height: 20px;
-  -webkit-filter: invert(1);
-          filter: invert(1);
+  font-size: 25px;
+  cursor: pointer;
 }
 
 .footer__list {
@@ -835,11 +831,7 @@ body {
 }
 
 .leader__article--sc:nth-child(1) {
-  background-image: url(../../assets/icons/icon-linkedin.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 32px;
-  height: 32px;
+  font-size: 32px;
   display: block;
   cursor: pointer;
   -webkit-transition: opacity 0.5s 0s ease;
@@ -851,11 +843,7 @@ body {
 }
 
 .leader__article--sc:nth-child(2) {
-  background-image: url(../../assets/icons/icon-twitter.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 32px;
-  height: 32px;
+  font-size: 32px;
   display: block;
   cursor: pointer;
   -webkit-transition: opacity 0.5s 0s ease;

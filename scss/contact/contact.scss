@@ -258,15 +258,8 @@ body {
         opacity: 0.6;
       }
 
-      & span {
-        display: block;
-        background-image: url(../../assets/icons/icon-arrow.svg);
-        background-repeat: no-repeat;
-        background-size: contain;
-        width: 25px;
-        height: 25px;
-        -webkit-filter: invert(1);
-        filter: invert(1);
+      & span {       
+       filter: grayscale(100%);
       }
     }
   }
@@ -470,13 +463,7 @@ body {
       }
 
       & span {
-        display: block;
-        background-image: url(../../assets/icons/icon-arrow.svg);
-        background-repeat: no-repeat;
-        background-size: contain;
-        width: 25px;
-        height: 25px;
-        cursor: pointer;
+        font-size: 25px;
         filter: invert(1);
       }
     }
