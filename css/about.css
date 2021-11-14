@@ -835,7 +835,7 @@ body {
 }
 
 .leader__article--sc:nth-child(1) {
-  background-image: url(/assets/icons/icon-linkedin.svg);
+  background-image: url(../../assets/icons/icon-linkedin.svg);
   background-size: contain;
   background-repeat: no-repeat;
   width: 32px;
@@ -851,7 +851,7 @@ body {
 }
 
 .leader__article--sc:nth-child(2) {
-  background-image: url(/assets/icons/icon-twitter.svg);
+  background-image: url(../../assets/icons/icon-twitter.svg);
   background-size: contain;
   background-repeat: no-repeat;
   width: 32px;

@@ -719,7 +719,7 @@ body {
 
 .detail__body--cta span {
   display: block;
-  background-image: url(/assets/icons/icon-arrow.svg);
+  background-image: url(../../assets/icons/icon-arrow.svg);
   background-repeat: no-repeat;
   background-size: contain;
   width: 25px;
@@ -978,7 +978,7 @@ body {
 
 .contact__form--btn span {
   display: block;
-  background-image: url(/assets/icons/icon-arrow.svg);
+  background-image: url(../../assets/icons/icon-arrow.svg);
   background-repeat: no-repeat;
   background-size: contain;
   width: 25px;
